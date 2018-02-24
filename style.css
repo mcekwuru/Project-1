@@ -140,7 +140,7 @@ form .contact{
 	margin-right: 50px;
 	float: right;
 }
-.input{
-	width: 50px;
+.input [type=text]{
+	width: 30;
 	box-sizing: border-box;
 }
