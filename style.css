@@ -136,7 +136,11 @@ div.contact{
 label{
 	color: black;
 }
-form{
+form .contact{
 	margin-right: 50px;
 	float: right;
+}
+.input{
+	width: 50px;
+	box-sizing: border-box;
 }
