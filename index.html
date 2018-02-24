@@ -24,12 +24,14 @@
 		<input type="text" placeholder="Search.." class="search-bar"></input>
 		</nav>
 	</header>
-<select>
     <div class="gallery">
       <figure class="gallery-item">
         <img class="products" src="images/gele.jpeg">
         	<p>Gele<br><b>$19.99</b></p>
-        	<a href="#" class="btn btn-primary">Add to cart> <input type="text" value="0"><br></a>
+        	<form action="/action_page.php">
+        		<input type="text" name="Quantity" value="0" >
+        	</form>
+        	<a href="#" class="btn btn-primary">Add to cart</a>
       </figure>
       <figure class="gallery-item">
         <img class="products" src="images/jewelry.jpeg">
@@ -57,7 +59,6 @@
         	<a href="#" class="btn btn-primary">Add to cart</a>
       </figure>
     </div>
-<select>
 <footer>
       <nav>
 		<div class="social">
