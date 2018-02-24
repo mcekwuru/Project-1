@@ -30,7 +30,7 @@ a .brand-name{
 	text-transform: uppercase;
 	display: block;
 	margin: 0 auto;
-	text-align: center;
+	/* text-align: center; */
 	padding: 20px 0;
 	text-decoration: none;
 	text-shadow: 3px 2px black;
