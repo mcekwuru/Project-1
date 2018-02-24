@@ -143,4 +143,5 @@ form .contact{
 .input [type=text]{
 	width: 30;
 	box-sizing: border-box;
+	padding-top: 10px;
 }
