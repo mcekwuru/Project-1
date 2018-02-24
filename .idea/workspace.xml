@@ -14,8 +14,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainProject (bbedit).html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MainProject (bbedit).html">
+      <file leaf-file-name="Index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="10" column="49" lean-forward="false" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
@@ -135,12 +135,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519491983172</updated>
-      <workItem from="1519491988711" duration="2462000" />
+      <workItem from="1519491988711" duration="2625000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2462000" />
+    <option name="totallyTimeSpent" value="2625000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="44" width="1400" height="770" extended-state="0" />
@@ -256,7 +256,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/Index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -272,7 +272,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MainProject (bbedit).html">
+    <entry file="file://$PROJECT_DIR$/Index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="49" lean-forward="false" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
