@@ -41,9 +41,6 @@ header nav ul{
 	width: fit-content;
 	float: left;
 }
-nav navbar-nav navbar-right{
-	float: right;
-}
 header nav ul li{
 	display: inline-block;
 	float: left;
@@ -77,6 +74,7 @@ header ul a:hover{
 }
 .gallery-item {
   margin: 20px;
+  visibility: hidden;
 }
 .gallery-item p{
 	color: white;
