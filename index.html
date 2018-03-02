@@ -1,3 +1,4 @@
+<!DOCTYPE HTML>
 <html>
 <head>
     <title>African Fashion</title>
@@ -5,67 +6,76 @@
 	<link rel="stylesheet" type="text/css" href="style.css"/>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 </head>
-<body>
-<script src="script.js"></script>
+<body onload="updateCart()">
 	<header>
-		<a class="brand-name">MIMI'S BOUTIQUE</a>
+		<div><a href="#" class="brand-name">MIMI'S BOUTIQUE</a></div>
 		<nav>
 			<ul>
-			<li><a href="home.html">Home</a></li>
-  			<li><a href="dresses.html">Dresses</a></li>
-  			<li><a href="shirts.html">Shirts</a></li>
-  			<li><a href="bottoms.html">Bottoms</a></li>
-  			<li><a href="home decor.html">Home Decor</a></li>
-  			<li><a href="jewelry.html">Jewelry</a></li>
-            </ul>
+			<li><a href="home.html">HOME</a></li>
+  			<li><a href="dresses.html">DRESSES</a></li>
+  			<li><a href="shirts.html">SHIRTS</a></li>
+  			<li><a href="bottoms.html">BOTTOMS</a></li>
+  			<li><a href="home decor.html">HOME DECOR</a></li>
+  			<li><a href="jewelry.html">JEWELRY</a></li>
+  			</ul>
+  			<div class="shopping-cart">
+  				<a href="#"><i class="fa fa-search"></i></a> 
+  				<a href="#"><i class="fa fa-shopping-cart"> Cart ( <span id="num-of-items"></span> ) </i></a> 
+  				<a href="#">Checkout</a>
+  			</div>
 		</nav>
 	</header>
     <div class="gallery">
-      <figure class="gallery-item">
+      <div class="gallery-item">
         <img class="products" src="images/gele.jpeg">
         	<p>Gele<br><b>$19.99</b></p>
-        		<input type="number" name="Quantity" min="0" max="100" step="1" value="0" >
-        	<a href="#" class="btn btn-primary">Add to cart</a>
-      </figure>
-      <figure class="gallery-item">
+        		<input type="number" id="item1" name="Quantity" min="0" max="100" value="0">
+        	<button onclick="addToCart()" class="btn btn-primary add-to-cart">Add to cart</button>
+      </div>
+      <div class="gallery-item">
         <img class="products" src="images/jewelry.jpeg">
-        	<p>Jewelry<br><b>$25</b></p>
-        		<input type="number" name="Quantity" min="0" max="100" step="1" value="0" >
-        	<a href="#" class="btn btn-primary">Add to cart</a>
-      </figure>
-      <figure class="gallery-item">
+        	<p>Gele<br><b>$19.99</b></p>
+        		<input type="number" id="item2" name="Quantity" min="0" max="100" value="0">
+        	<button onclick="addToCart()" class="btn btn-primary add-to-cart">Add to cart</button>
+      </div>
+      <div class="gallery-item">
         <img class="products" src="images/home decor.jpeg">
-        	<p>Art<br><b>$20</b></p>
-        		<input type="number" name="Quantity" min="0" max="100" step="1" value="0" >
-        	<a href="#" class="btn btn-primary">Add to cart</a>
-      </figure>
-      <figure class="gallery-item">
+        	<p>Gele<br><b>$19.99</b></p>
+        		<input type="number" id="item3" name="Quantity" min="0" max="100" value="0">
+        	<button onclick="addToCart()" class="btn btn-primary add-to-cart">Add to cart</button>
+      </div>
+      <div class="gallery-item">
         <img class="products" src="images/clothing.jpeg">
-        	<p>Dress<br><b>$30</b></p>
-        		<input type="number" name="Quantity" min="0" max="100" step="1" value="0" >
-        	<a href="#" class="btn btn-primary">Add to cart</a>
-      </figure>
-      <figure class="gallery-item">
+        	<p>Gele<br><b>$19.99</b></p>
+        		<input type="number" id="item4" name="Quantity" min="0" max="100" value="0">
+        	<button onclick="addToCart()" class="btn btn-primary add-to-cart">Add to cart</button>
+      </div>
+      <div class="gallery-item">
         <img class="products" src="images/clothing2.jpeg">
-        	<p>Maxi Dress<br><b>$40</b></p>
-        		<input type="number" name="Quantity" min="0" max="100" step="1" value="0" >
-        	<a href="#" class="btn btn-primary">Add to cart</a>
-      </figure>
-      <figure class="gallery-item">
+        	<p>Gele<br><b>$19.99</b></p>
+        		<input type="number" id="item5" name="Quantity" min="0" max="100" value="0">
+        	<button onclick="addToCart()" class="btn btn-primary add-to-cart">Add to cart</button>
+      </div>
+      <div class="gallery-item">
         <img class="products" src="images/headwrap.jpeg">
-        	<p>Bracelet<br><b>$10.99</b></p>
-        		<input type="number" name="Quantity" min="0" max="100" step="1" value="0" >
-        	<a href="#" class="btn btn-primary">Add to cart</a>
-      </figure>
+        	<p>Gele<br><b>$19.99</b></p>
+        		<input type="number" id="item6" name="Quantity" min="0" max="100" value="0">
+        	<button onclick="addToCart()" class="btn btn-primary add-to-cart">Add to cart</button>
+      </div>
     </div><br><br>
 <footer class="container"> 
 	<div class="social">
 		<h3> STAY CONNECTED</h3>
-			<a href="http://instagram.com"><img src="images/instagram.jpeg" width:"30"="" height="30"></a>
-        	<a href="https://facebook.com"><img src="images/facebook.png" width:"30"="" height="30"></a>
-       		<a href="https://twitter.com"><img src="images/twitter.png" width:"30"="" height="30"></a>
+			<a href="#"><i class="fa fa-facebook-square"></i></a> 
+        	<a href="#"><i class="fa fa-twitter-square"></i></a> 
+        	<a href="#"><i class="fa fa-instagram-square"></i></a> 
+        	<a href="#"><i class="fa fa-youtube-play"></i></a> 
+        	<a href="#"><i class="fa fa-pinterest"></i></a> 
+        	<a href="#"><i class="fa fa-google-plus"></i></a> 
 		</div>
    <div class="contact">
 			<h3>CONTACT US</h3>
@@ -83,5 +93,5 @@
 			</form>
 		<div>
 </footer>
-  </body>
+</body>
 </html>
